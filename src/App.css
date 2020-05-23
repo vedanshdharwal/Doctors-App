@@ -7,6 +7,42 @@
   pointer-events: none;
 }
 
+span{
+  /* display: inline-block;
+  font-weight: 600;
+  background-color: #2b9bbb;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px */
+  cursor: pointer;
+  margin-left: 50px;
+}
+table{
+  margin-top: 10px;
+}
+form{
+  border: solid;
+  border-color: #b1b1b3;
+  padding: 30px;
+  margin: 50px 10px;
+  border-width: .2rem .2rem;
+  border-radius: 8px 8px;
+}
+.search-row{
+  max-width: 200px;
+    background-color: aliceblue;
+    padding: 3px;
+    margin: auto;
+    margin-top: 8px
+}
+.list-wrapper{
+  border: 1px solid #ccc;
+    margin: auto;
+    width: 500px;
+    margin-top: 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
